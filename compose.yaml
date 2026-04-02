@@ -1,0 +1,8 @@
+service:
+  FlaskProject:
+    build: .
+    container_name: flask_project
+    image: flask_project:latest
+    ports:
+      - "8084:8084"
+    restart: always
