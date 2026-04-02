@@ -1,4 +1,4 @@
-service:
+services:
   FlaskProject:
     build: .
     container_name: flask_project
